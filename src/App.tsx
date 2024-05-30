@@ -1,12 +1,15 @@
 import VoiceRecorder from './components/Recorder';
+import CoreRecorder from './components/CoreVoiceRecorder';
 import './App.css'
+
 
 
 
 function App() {
   return (
     <div className="mainContainer">
-      <VoiceRecorder />
+      {/* <VoiceRecorder /> */}
+      <CoreRecorder />
     </div>
   )
 }
